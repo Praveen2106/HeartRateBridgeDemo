@@ -1,4 +1,4 @@
-Heart Rate Bridge allows your application to communicate with the Heart Rate Monitor application, receiving the measured Heart rate. You can save and show this data as part of your application.
+**Heart Rate Bridge** allows your application to communicate with the Heart Rate Monitor application, receiving the measured Heart rate. You can save and show this data as part of your application.
 <br><br>The Heart Rate Monitor uses Camera Fusion algorithms to measure the Heart Rate with incredible accuracy. Unlike other algorithms, it works even without a flash.
 <br><br>We believe this will help developers to add accurate heart rate tracking in their own health applications.
 <br><br>Your application does not need CAMERA permission to measure Heart rate. It is handled by the bridge.
