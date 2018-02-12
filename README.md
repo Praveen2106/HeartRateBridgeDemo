@@ -6,3 +6,4 @@
 <br><br>Open a new issue in Github, if you have any issues with the demo or the bridge.
 
 
+`Download the demo APK from Release page.`
