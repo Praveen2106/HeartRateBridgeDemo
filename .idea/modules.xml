@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BridgeDemo/BridgeDemo.iml" filepath="$PROJECT_DIR$/BridgeDemo/BridgeDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HeartRateBridgeDemo.iml" filepath="$PROJECT_DIR$/HeartRateBridgeDemo.iml" />
+      <module fileurl="file://E:\Android\Workspace\Misc Projects\HeartRateBridgeDemo\BridgeDemo\app.iml" filepath="E:\Android\Workspace\Misc Projects\HeartRateBridgeDemo\BridgeDemo\app.iml" />
+    </modules>
+  </component>
+</project>

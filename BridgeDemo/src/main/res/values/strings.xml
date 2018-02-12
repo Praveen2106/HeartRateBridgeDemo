@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Heart Rate Bridge Demo</string>
+    <string name="action_github">Github</string>
+
+    <string name="developer_policy" translatable="false">
+        Heart Rate Bridge allows your application to communicate with the Heart Rate Monitor application, receiving the measured Heart rate. You can save and show this data as part of your application.
+        \n\nThe Heart Rate Monitor uses Camera Fusion algorithms to measure the Heart Rate with incredible accuracy. Unlike other algorithms, it works even without a flash.
+        \n\nWe believe this will help developers to add accurate heart rate tracking in their own health applications.
+        \n\nYour application does not need CAMERA permission to measure Heart rate. It is handled by the bridge.
+        \n\nThis demo application is open source and available on Github. More customization options to match your application style, will be available soon.
+        \n\nOpen a new issue in Github, if you have any issues with the demo or the bridge.
+        </string>
+</resources>
