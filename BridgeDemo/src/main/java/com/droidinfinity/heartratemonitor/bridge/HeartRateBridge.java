@@ -22,11 +22,6 @@ public class HeartRateBridge {
         this.heartRateListener = heartRateListener;
     }
 
-    public static boolean isHeartRateMonitorInstalled(Context context) {
-        final Intent intent = new Intent(ACTION_MEASURE);
-        return context.getPackageManager().queryIntentActivities(intent, 0).size() > 0;
-    }
-
     public void openHeartRateBridge(Activity context) {
         final Intent intent = new Intent(ACTION_MEASURE);
         if (context.getPackageManager().queryIntentActivities(intent, 0).size() > 0) {
@@ -50,6 +45,7 @@ public class HeartRateBridge {
         return false;
     }
 
+    /* Static Methods */
     public static int extractHeartRateFromData(Intent data) {
         if (data != null)
             return data.getIntExtra("heart_rate", -1);
@@ -61,5 +57,10 @@ public class HeartRateBridge {
         final Uri uri = Uri.parse("market://details?id=com.droidinfinity.heartratemonitor");
         final Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         context.startActivity(intent);
+    }
+
+    public static boolean isHeartRateMonitorInstalled(Context context) {
+        final Intent intent = new Intent(ACTION_MEASURE);
+        return context.getPackageManager().queryIntentActivities(intent, 0).size() > 0;
     }
 }
