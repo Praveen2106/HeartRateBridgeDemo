@@ -11,6 +11,8 @@ import android.net.Uri;
 @SuppressWarnings({"WeakerAccess", "unused"})
 public class HeartRateBridge {
     public final static String ACTION_MEASURE = "com.droidinfinity.heartratemonitor.MEASURE";
+    public static final String KEY_CALLING_PACKAGE = "calling_package";
+
     private transient static final int REQUEST_MEASURE = 6437;
     private HeartRateListener heartRateListener;
 
@@ -24,6 +26,7 @@ public class HeartRateBridge {
 
     public void openHeartRateBridge(Activity context) {
         final Intent intent = new Intent(ACTION_MEASURE);
+        intent.putExtra(KEY_CALLING_PACKAGE, context.getApplicationContext().getPackageName());
         if (context.getPackageManager().queryIntentActivities(intent, 0).size() > 0) {
             context.startActivityForResult(intent, REQUEST_MEASURE);
         }
