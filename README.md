@@ -4,5 +4,9 @@
 <br><br>More customization options to match your application style, will be available soon.
 <br><br>Open a new issue in Github, if you have any issues with the demo or the bridge.
 
-<br><br>
+<br>
 `Download the demo APK from Release page.`
+
+<br>
+Heart Rate Monitor is tested by more than 100 Thousand users daily through **Health Infinity** application. 
+Try **Health Infinity**: https://play.google.com/store/apps/details?id=com.droidinfinity.healthplus
