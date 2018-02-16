@@ -57,7 +57,7 @@ public class HeartRateBridge {
     }
 
     public static void startInstallIntent(Activity context) {
-        final Uri uri = Uri.parse("market://details?id=com.droidinfinity.heartratemonitor");
+        final Uri uri = Uri.parse("market://details?id=com.droidinfinity.heartratemonitor&referrer=utm_source%3D" + context.getApplicationContext().getPackageName());
         final Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         context.startActivity(intent);
     }
