@@ -5,9 +5,9 @@
 <br><br>Open a new issue in Github, if you have any issues with the demo or the bridge.<br>
 
 `Download the demo APK from Release page.`
-<br>
-**Apps that use HeartRateBridge:**
-1. Health Pal Fitness - Weight Loss Coach & Pedometer: https://play.google.com/store/apps/details?id=com.androidapps.healthmanager
+
+<br>**Apps that use HeartRateBridge:**
+<br>1. Health Pal Fitness - Weight Loss Coach & Pedometer: https://play.google.com/store/apps/details?id=com.androidapps.healthmanager
 
 <br>Heart Rate Monitor is tested by more than 100 Thousand users daily through **Health Infinity** application. 
 <br>Try **Health Infinity**: https://play.google.com/store/apps/details?id=com.droidinfinity.healthplus
